@@ -1,0 +1,141 @@
+.header {
+  width: 100%;
+  height: 100px;
+}
+
+.header_top {
+  background-color: #131921;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding: 5px 0;
+  color: white;
+  font-size: 14px;
+  flex-flow: row nowrap;
+}
+
+.header_top_left {
+  display: flex;
+  margin: 0 10px;
+  width: auto;
+  height: auto;
+}
+
+.header_top_left > div {
+  margin: 0 10px;
+}
+
+.header_top_left .nav_logo {
+  display: flex;
+  align-items: center;
+}
+.header_top_left .nav_logo img {
+  width: 100px;
+}
+
+.nav_location {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 95px;
+}
+
+.header_top_middle {
+  display: flex;
+  flex: 1;
+  min-width: 500px;
+  align-items: center;
+}
+
+.header_top_middle select {
+  font-size: 100%;
+  height: 38px;
+  width: auto;
+  outline: none;
+  border: none;
+  background-color: #f3f3f3;
+}
+.header_top_middle input {
+  width: 100%;
+  padding: 7px 10px 10px 0;
+  margin: 0;
+  border: 0;
+  height: 38px;
+  font-size: 15px;
+  color: #111;
+  outline: none;
+  text-indent: 10px;
+}
+
+.header_top_middle button {
+  width: 45px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  height: 38px;
+  border: none;
+  outline: none;
+  background-color: #febd69;
+}
+
+.header_top_right {
+  display: flex;
+  margin: 0 10px;
+  width: auto;
+  min-width: auto;
+}
+
+.country {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.country select {
+  width: 50px;
+}
+
+.signin {
+  width: 130px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.order {
+  width: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+
+.cart {
+  width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.header_bottom {
+  background-color: #232f3e;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 14px;
+  padding: 0 10px;
+}
+
+.header_bottom .all {
+  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header_bottom .bottom_menu {
+  display: flex;
+  margin-right: auto;
+}
+.header_bottom .bottom_menu a {
+  margin-right: 20px;
+}

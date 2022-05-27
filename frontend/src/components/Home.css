@@ -1,0 +1,36 @@
+.caraousel_container {
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.slick-prev {
+  top: 100px;
+  height: 150px;
+  width: 70px;
+  left: 0;
+  z-index: 1;
+  outline: 1px solid black;
+}
+.slick-next {
+  right: 0;
+  top: 100px;
+  height: 150px;
+  width: 70px;
+  outline: 1px solid black;
+}
+
+.gradient {
+  position: absolute;
+  top: 300px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 5%,
+    rgba(234, 237, 237, 1) 89%
+  );
+  z-index: 1;
+}
